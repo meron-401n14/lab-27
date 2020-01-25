@@ -5,7 +5,7 @@ Dynamic Forms
 ### Author: Meron
 
 ### Links and Resources
-* [codesandbox](http://xyz.com)
+* [codesandbox](https://codesandbox.io/s/github/meron-401n14/lab-27)
 * [travis](http://xyz.com)
 * [Netlify](https://lab-13app.herokuapp.com/)
 
