@@ -10,11 +10,12 @@ class JSONFILE extends Component {
   render(){
     return (
       <div className="App">
-      {this.props.isValid ? <p>VALID JSON!</p>: <p>INVALID JSON!</p>}
+      {this.props.isValid ? <p style={{paddingTop:"10px", backgroundColor:"cyan",height:"40px", width:"30%"}}>
+        VALID JSON!</p>: <p style={{paddingTop:"10px", backgroundColor:"cyan",height:"40px", width:"30%"}}>INVALID JSON!</p>}
         <textarea
          style={{
           backgroundColor: "lightblue",
-          width: "50%",
+          width: "30%",
           height: "400px"
         }}
         id='json-txt'
