@@ -12,6 +12,11 @@ class JSONFILE extends Component {
       <div className="App">
       {this.props.isValid ? <p>VALID JSON!</p>: <p>INVALID JSON!</p>}
         <textarea
+         style={{
+          backgroundColor: "lightblue",
+          width: "50%",
+          height: "400px"
+        }}
         id='json-txt'
         value={this.props.jsonTxt}
         onChange={(e)=> {
